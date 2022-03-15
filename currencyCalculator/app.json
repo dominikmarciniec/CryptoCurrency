@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "currencyCalculator",
+    "slug": "currencyCalculator",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
