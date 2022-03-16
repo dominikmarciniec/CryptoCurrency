@@ -8,6 +8,9 @@ export default function App() {
     <View style={styles.container}>
       <CoinItem name={'coin_one'}/>
       <CoinItem name={'coin_two'}/>
+      <CoinItem name={'coin_tree'}/>
+      <CoinItem name={'coin_four'}/>
+      <CoinItem name={'coin_five'}/>
       <StatusBar style="light" />
     </View>
   );
