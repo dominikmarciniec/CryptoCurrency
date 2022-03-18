@@ -6,7 +6,15 @@ import HomeScreen  from './src/screens/HomeScreen';
 export default function App() {
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <HomeScreen/>
+=======
+      <CoinItem name={'coin_one'}/>
+      <CoinItem name={'coin_two'}/>
+      <CoinItem name={'coin_tree'}/>
+      <CoinItem name={'coin_four'}/>
+      <CoinItem name={'coin_five'}/>
+>>>>>>> origin/master
       <StatusBar style="light" />
     </View>
   );
