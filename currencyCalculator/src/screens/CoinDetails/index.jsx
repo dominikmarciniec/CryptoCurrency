@@ -3,7 +3,7 @@ import {View, Text, Dimensions, ActivityIndicator} from 'react-native';
 import Coin from '../../../data/crypto.json';
 import DetailsHeader from "./components/DetailsHeader.jsx";
 import styles from './components/styles'
-import {getDetailedCoinData, getCoinMarketChart} from '../../services/requests';
+import {getDetailedCoinData, getCoinMarketChart, getAllCoinData} from '../../services/requests';
 import { useNavigation } from "@react-navigation/native";
 import { AntDesign } from '@expo/vector-icons';
 //import {ChartDot, ChartPath, ChartPathProvider} from '@rainbow-me/animated-charts';
@@ -33,7 +33,7 @@ const CoinDetails = () => {
                 <View style={styles.priceContainer}>
                     <View>
                         <Text style={styles.name}>{name}</Text>
-                        <Text style={styles.currentPrice}>${current_price.usd}</Text>ś
+                        <Text style={styles.currentPrice}>${current_price.usd}</Text>
                     </View>
                     <View style={{backgroundColor: percentageColorChange, paddingHorizontal:3, paddingVertical: 10,borderRadius: 5, flexDirection: 'row'}}>
                         <AntDesign 
